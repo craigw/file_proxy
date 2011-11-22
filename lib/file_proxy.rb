@@ -1,0 +1,10 @@
+require 'net/http'
+require 'uri'
+require 'delegate'
+
+require 'file_proxy/version'
+require 'file_proxy/original_file'
+require 'file_proxy/proxies/file_proxy'
+require 'file_proxy/proxies/http_proxy'
+require 'file_proxy/proxy'
+require 'file_proxy/shim'
