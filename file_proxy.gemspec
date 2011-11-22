@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Craig R Webster"]
   s.email       = ["craig@barkingiguana.com"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{Proxy the File class to places that aren't on the local filesystem}
+  s.description = %q{A toy project to see if I can make a library with no knowledge of an external storage service read files from and write files to that service.}
 
   s.rubyforge_project = "file_proxy"
 
